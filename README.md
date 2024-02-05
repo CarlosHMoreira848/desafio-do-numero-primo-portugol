@@ -1,2 +1,14 @@
-# desafio-do-numero-primo-portugol
-Desafio da criação de um programa que recebe um número pelo console e retorna se esse número é primo ou não.
+# Desafio do nnúmero primo!
+- Data: 01/02/2024
+- Contexto: Formação CÓDIGO DE BASE da Educ360° em parceria com a Foursys! | Curso Jornada Base - Lógica
+- O que é: Um código de baixa/média complexidade de um programa que recebe um número pelo console e retorna se esse número é primo ou não.
+- Temas envolvidos:
+  - Resto da divisão;
+  - Função com retorno do tipo inteiro;
+  - Estruturas condicionais 'se', 'senao' e 'senao se';
+  - Estrutura de repetição 'enquanto';
+  - Entrada e saída de dados no console;
+  - Operadores relacionais;
+  - Atribuição de variáveis;
+  - Concateção;
+  - Passagem de parâmetro em uma função.
