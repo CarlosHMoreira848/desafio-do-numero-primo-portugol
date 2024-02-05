@@ -9,6 +9,7 @@
   - Estrutura de repetição 'enquanto';
   - Entrada e saída de dados no console;
   - Operadores relacionais;
+  - Operadores aritméticos;
   - Atribuição de variáveis;
   - Concateção;
   - Passagem de parâmetro em uma função.
