@@ -11,7 +11,7 @@ programa
 			inteiro primoOuNao
 			escreva("Muito Bem! Digite qual número você deseja saber se é primo: ")
 			leia(primoOuNao)
-			se (digaSeEPrimo(primoOuNao) == 1) {
+			se (digaSeEPrimo(primoOuNao)) {
 				escreva(primoOuNao + " é um número primo!")
 			} senao {
 				escreva(primoOuNao + " não é um número primo!")
@@ -21,8 +21,8 @@ programa
 		}
 	}
 			
-	funcao inteiro digaSeEPrimo(inteiro numero) {
-		inteiro resultado // variável que a função irá retornar
+	funcao logico digaSeEPrimo(inteiro numero) {
+		logico resultado // variável que a função irá retornar
 		inteiro manipulador = 1 // variável que usaremos de suporte para verificar se o número é primo ou não
 		inteiro quantidadeDeDivisores = 0 // variável que determinará se o número é primo ou não
 		enquanto (manipulador <= numero) {
@@ -32,9 +32,9 @@ programa
 			manipulador++
 		}
 		se (quantidadeDeDivisores == 2) {
-			resultado = 1
+			resultado = verdadeiro
 		} senao {
-			resultado = 0
+			resultado = falso
 		}
 		retorne resultado
 	}
@@ -53,7 +53,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 329; 
+ * @POSICAO-CURSOR = 815; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
